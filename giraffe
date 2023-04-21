@@ -1,0 +1,19 @@
+class giraffe:
+    def left_foot_forward(self):
+        print('левая нога вперёд')
+    def left_foot_back(self):
+       print('левая нога назад')
+    def right_foot_forward(self):
+        print('правая нога вперед')
+    def right_foot_back(self):
+        print('правая нога назад')
+    def dance(self):
+        self.left_foot_forward()
+        self.left_foot_back()
+        self.right_foot_forward()
+        self.right_foot_back()
+
+
+giraf = giraffe()
+giraf.dance()
+print(giraf.dance())
